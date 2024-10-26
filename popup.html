@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            width: 300px;
+            padding: 15px;
+            font-family: Arial, sans-serif;
+        }
+        
+        .input-group {
+            margin-bottom: 15px;
+        }
+        
+        #keyInput {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        
+        #activate {
+            background-color: #25D366;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            padding: 10px;
+            width: 100%;
+            cursor: pointer;
+        }
+        
+        #status {
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="input-group">
+        <input type="text" id="keyInput" placeholder="Digite sua chave de ativação">
+        <button id="activate">Ativar</button>
+    </div>
+    <div id="status"></div>
+    <script src="popup.js"></script>
+</body>
+</html>
